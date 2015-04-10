@@ -31,6 +31,7 @@ class GravityView_Remote_Debug {
 			'24.9.165.93',
 			'67.176.16.53',
 			'95.136.84.75', // Luis
+			'89.115.5.146', // Luis
 		);
 
 		return isset( $_SERVER["REMOTE_ADDR"] ) && in_array( $_SERVER["REMOTE_ADDR"], $allowed_ips );
